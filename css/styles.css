@@ -102,6 +102,13 @@ h3 {
 }
 
 
+.handstand {
+    position: fixed;
+    top: 0px;
+    left: 830px;
+    padding: 0px;
+}
+
 
 
 @keyframes move {
