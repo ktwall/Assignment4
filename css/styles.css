@@ -1,0 +1,73 @@
+/*-----------------------
+Universal Styling
+----------------------- */
+@font-face{
+  font-family:'Geosans';
+  src: url('../fonts/geosanslight.ttf') format('truetype');
+}
+
+p{
+  font-family: "Open Sans", sans-serif;
+}
+
+h1{
+  font-family: 'Geosans', sans-serif;
+}
+
+/*-----------------------
+header
+----------------------- */
+
+li {
+    display: inline;
+    padding: 10px;
+    font-weight: bold;
+    font-size: 20px;
+    background-color: cornflowerblue;
+}
+
+/*-----------------------
+main
+----------------------- */
+
+main {
+    max-width: 800px;
+    background: lightyellow;
+    margin: 10px 15px 10px 15px;
+    padding: 50px;
+}
+
+span.bold {
+    font-size: 40px;
+    font-weight: bold;
+    font-family: sans-serif;
+    display: block;
+}
+
+.cartwheel {
+    position: absolute;
+    top: 800px;
+    left: 0px;
+    animation-name: flip;
+    animation-duration: 5s;
+    animation-fill-mode: forwards;
+    animation-delay: 1s;
+
+
+}
+
+
+@keyframes flip {
+  from {
+    transform: translatex(0px);
+  }
+  to {
+    transform: translatex(1000px);
+  }
+
+  0%
+  25%
+  50%
+  75%
+  100%
+}
